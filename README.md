@@ -46,6 +46,23 @@ Identifying trends, HR teams can create targeted strategies to improve employee 
 
 ![image](https://github.com/user-attachments/assets/6add390d-d78c-4323-a4bc-e883c0d41a99)
 
+In order to evaluate campaign performance, we focused on the following key metrics:
+Signup Rate: The percent of people who see a campaign and subsequently sign up for a Row Health plan.
+Cost per Signup: The average dollars spent in order to acquire a signup from each campaign.
+Click through Rate: The percent of people who see a campaign and click on the associated link.
+Signup Rate
+Across campaign categories, Health for All campaigns had the best-performing signup rate (2.9%) and the second-highest number of signups (3.5K).
+This high signup rate is due to the Health Awareness campaign type, which had by far the highest signup rate across all campaign types (3.72%).
+Interestingly, the category with the highest number of signups - #HealthyLiving - had a comparably low signup rate at 0.3%.
+Click through Rate
+Across categories, Health for All and Benefit Updates performed nearly 3-4x better than the average CTR at 36% and 22%, respectively.
+Within the two categories with high CTR, product promotion-based campaigns had relatively low CTR (0% and 7%).
+Family Coverage Plan had high impressions but no clicks - this needs to be investigated and could be due to missing data or issues with the campaign.
+Cost per Signup
+Across campaign categories, Golden Years Security had by far the highest cost per signup ($124), as well as the lowest number of signups (23), compared to an average of $2.2.
+Within the two campaign categories with highest cost per signup, info-based campaign types (like offers and policy info) drove high costs per signup.
+Some COVID-based campaigns also had abnormally high CACs at $1.2-$1.3K.
+
 
 ## Modeling 🤖
 
