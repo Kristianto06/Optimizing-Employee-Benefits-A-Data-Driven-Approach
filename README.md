@@ -10,34 +10,6 @@ An employee health program is not just about mitigating the risk of injury or il
 
 We call this 'empathetic productivity'. Every dollar invested in employee health is an investment in the sustainability of the business and the trust of employees."
 
-
-## Table of Contents 📑
-
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Tools](#tools)
-- [Analysis & Insights](#analysis--insights)
-- [Modeling](#modeling)
-
-## Dataset 📈
-
-The dataset used in this project contains employee records with various features that influence employee retention, such as:
-![image](https://github.com/user-attachments/assets/ab1975ab-2e3d-4421-b3b1-652936d693a8)
-
-This data can be sourced from publicly available datasets, HR systems, or simulated data for analysis.
-
-## Technologies Used ⚙️
-
-This project utilizes a variety of tools and technologies to perform data analysis and create predictive models:
-
-- **Python** 🐍
-  - `pandas` for data manipulation
-  - `tableau` for visualization
-  - `numpy` for numerical operations
-  - `matplotlib` and `seaborn` for data visualization
-  - `scikit-learn` for machine learning models
-- **Jupyter Notebooks** for interactive analysis and visualization
-
 ## Analysis & Insights 🔍
 
 Through exploratory data analysis (EDA), we uncover key patterns related to employee turnover. Some example insights include:
@@ -49,23 +21,66 @@ Identifying trends, HR teams can create targeted strategies to improve employee 
 
 ![image](https://github.com/user-attachments/assets/6add390d-d78c-4323-a4bc-e883c0d41a99)
 
-In order to evaluate campaign performance, we focused on the following key metrics:
-Signup Rate: The percent of people who see a campaign and subsequently sign up for a Row Health plan.
-Cost per Signup: The average dollars spent in order to acquire a signup from each campaign.
-Click through Rate: The percent of people who see a campaign and click on the associated link.
-Signup Rate
-Across campaign categories, Health for All campaigns had the best-performing signup rate (2.9%) and the second-highest number of signups (3.5K).
-This high signup rate is due to the Health Awareness campaign type, which had by far the highest signup rate across all campaign types (3.72%).
-Interestingly, the category with the highest number of signups - #HealthyLiving - had a comparably low signup rate at 0.3%.
-Click through Rate
-Across categories, Health for All and Benefit Updates performed nearly 3-4x better than the average CTR at 36% and 22%, respectively.
-Within the two categories with high CTR, product promotion-based campaigns had relatively low CTR (0% and 7%).
-Family Coverage Plan had high impressions but no clicks - this needs to be investigated and could be due to missing data or issues with the campaign.
-Cost per Signup
-Across campaign categories, Golden Years Security had by far the highest cost per signup ($124), as well as the lowest number of signups (23), compared to an average of $2.2.
-Within the two campaign categories with highest cost per signup, info-based campaign types (like offers and policy info) drove high costs per signup.
-Some COVID-based campaigns also had abnormally high CACs at $1.2-$1.3K.
 
+
+## Dataset 📈
+
+Dataset Description
+
+This dataset contains 59,999 records, each representing a unique medical claim. It provides valuable insights into various aspects of healthcare claims processing.
+
+Key Variables
+
+Patient Information:
+
+Member ID: Unique identifier for each individual patient.
+Location: Geographic location associated with the patient.
+Claim Details:
+
+Claim_No: Unique identifier for each claim.
+type: Type of claim (e.g., inpatient, outpatient, dental).
+ServiceStartDate: Date when the medical service began.
+ServiceStartEnd: Date when the medical service ended.
+Days: Duration of the service.
+ProviderName: Name of the healthcare provider.
+Service Information:
+
+BenefitDescription: General description of the service provided.
+DetailDescription: Detailed description of the service or procedure.
+ProductCode: Code representing the specific insurance plan or product.
+Diagnosis & Procedure:
+
+icd_code: International Classification of Diseases code for diagnosis.
+methode: Method of service delivery (e.g., in-person, telemedicine).
+Financial Information:
+
+BilledAmount: Total amount billed by the healthcare provider.
+ApprovedAmount: Amount approved for payment by the insurance company.
+ShortfallAmount: Amount not covered by insurance.
+Data Types
+
+Integers: Index, Days
+Strings: Location, Member ID, Claim_No, ProviderName, BenefitDescription, DetailDescription, ProductCode, icd_code, methode
+Dates: ServiceStartDate, ServiceStartEnd
+Floats: BilledAmount, ApprovedAmount, ShortfallAmount
+Key Improvements:
+
+Enhanced Readability: Using bullet points and spacing improves readability.
+Clearer Sectioning: The description is divided into sections for better organization (Patient Information, Claim Details, etc.).
+Conciseness: Removed redundant phrases while maintaining clarity.
+Consistent Formatting: Consistent use of capitalization and spacing enhances the visual appeal.
+
+## Tools ⚙️
+
+This project utilizes a variety of tools and technologies to perform data analysis and create predictive models:
+
+- **Python** 🐍
+  - `pandas` for data manipulation
+  - `tableau` for visualization
+  - `numpy` for numerical operations
+  - `matplotlib` and `seaborn` for data visualization
+  - `scikit-learn` for machine learning models
+- **Jupyter Notebooks** for interactive analysis and visualization
 
 ## Modeling 🤖
 
