@@ -12,9 +12,6 @@ The primary objective of this project is to conduct a thorough analysis of our c
 - [Tools](#tools)
 - [Analysis & Insights](#analysis--insights)
 - [Modeling](#modeling)
-- [How to Run the Project](#how-to-run-the-project)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Dataset 📈
 
