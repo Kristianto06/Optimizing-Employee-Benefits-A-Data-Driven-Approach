@@ -197,5 +197,4 @@ If you have any questions or suggestions, feel free to open an issue or contact 
 
 >"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do." - Steve Jobs
 
-[Back to top](#readme)
 
