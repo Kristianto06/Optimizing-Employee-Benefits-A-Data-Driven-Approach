@@ -36,11 +36,11 @@ To evaluate claim trends, we focused on the following key metrics:
 > Outpatient vs. Hospitalization Claims
 - Outpatient claims consistently represented the larger portion of the total billed amount each month.
 
-In June, the billed amount for outpatient claims was IDR 2,001,475,542, while hospitalization claims were IDR 1,526,872,345.
+In June, the billed amount for ***Outpatient claims*** was $\color{orange} IDR 2,001,475,542$ ! while hospitalization claims were IDR 1,526,872,345.
 Percentage Change
 
 The percentage change in total billed amount fluctuated from month to month, showing both increases and decreases.
-There was a significant negative percentage change in June (-59.3%), indicating a substantial decrease in the total billed amount compared to May.
+There was a significant negative percentage change in June -59.3% indicating a substantial decrease in the total billed amount compared to May.
 Additional Observations
 
 The chart suggests a potential trend of decreasing total billed amounts from March to June.
@@ -139,7 +139,7 @@ This section focuses on predicting employee retention using machine learning mod
    - Logistic Regression
    - Decision Trees
    - Random Forest
-   - XGBoost
+     
 3. **Model Evaluation**: Using metrics like accuracy, precision, recall, and F1-score to evaluate model performance.
 
 The best-performing model can be deployed to predict future employee retention and guide HR strategies.
