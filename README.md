@@ -53,6 +53,11 @@ Are there any seasonal patterns or external factors that could explain the obser
 What are the specific trends for outpatient and hospitalization claims individually?
 
 
+## Recommendations
+
+This method is used to deliver insights and inform preventive, curative, and benefit design actions preferred by claim experience characteristics.  It also facilitates communication and education for the company.
+
+
 ## Dataset 📈
 
 This dataset contains 59,999 records, each representing a unique medical claim. It provides valuable insights into various aspects of healthcare claims processing.
@@ -112,7 +117,7 @@ Data Types
 | `Strings` | **Index**, **Days** |
 | `Strings` | Location, Member ID, Claim_No, ProviderName, BenefitDescription, DetailDescription, ProductCode, icd_code, methode |
 | `datetime64` | ServiceStartDate, ServiceStartEnd |
-| `Floats` | StartEndBilledAmount, ApprovedAmount, ShortfallAmount
+| `Floats` | BilledAmount, ApprovedAmount, ShortfallAmount
 
 
 Key Improvements:
