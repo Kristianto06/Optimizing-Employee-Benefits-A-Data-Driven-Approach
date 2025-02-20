@@ -36,7 +36,7 @@ To evaluate claim trends, we focused on the following key metrics:
 > Outpatient vs. Hospitalization Claims
 - Outpatient claims consistently represented the larger portion of the total billed amount each month.
 
-In June, the billed amount for ***Outpatient claims*** was $\color{orange} IDR 2,001,475,542$ ! while hospitalization claims were IDR 1,526,872,345.
+In June, the billed amount for ***Outpatient claims*** was $\color{orange} IDR 2,001,475,542$  while hospitalization claims were IDR 1,526,872,345.
 Percentage Change
 
 The percentage change in total billed amount fluctuated from month to month, showing both increases and decreases.
