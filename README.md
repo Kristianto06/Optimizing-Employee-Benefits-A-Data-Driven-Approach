@@ -60,6 +60,13 @@ This method is used to deliver insights and inform preventive, curative, and ben
 
 ## Dataset 📈
 
+* raw data claim
+* ICD code / desc
+
+*----------------------------------------|
+https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/
+*----------------------------------------|
+  
 This dataset contains 59,999 records, each representing a unique medical claim. It provides valuable insights into various aspects of healthcare claims processing.
 
 Dataset Description
