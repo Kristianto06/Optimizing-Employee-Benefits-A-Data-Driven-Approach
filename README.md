@@ -143,7 +143,6 @@ This section focuses on predicting employee retention using machine learning mod
 2. **Model Selection**: Building classification models to predict if an employee will leave or stay.
    - Logistic Regression
    - Decision Trees
-   - Random Forest
      
 3. **Model Evaluation**: Using metrics like accuracy, precision, recall, and F1-score to evaluate model performance.
 
