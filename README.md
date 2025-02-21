@@ -60,16 +60,16 @@ This method is used to deliver insights and inform preventive, curative, and ben
 
 ## Dataset 📈
 
-* raw data claim
-* ICD code / desc
+ * The raw claim data contains claims that occurred over a specific period, which in this case is 6 months of data.
+ * The ICD-Code contains disease codes that describe the condition of the insured who filed the claim.
 
-*----------------------------------------|
+The ICD-Code is taken from the following link.
+
 https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/
-*----------------------------------------|
-  
-This dataset contains 59,999 records, each representing a unique medical claim. It provides valuable insights into various aspects of healthcare claims processing.
 
-Dataset Description
+Dataset Description raw claim data
+
+This dataset contains 59,999 records, each representing a unique medical claim. It provides valuable insights into various aspects of healthcare claims processing.
 
 Patient Information:
   
