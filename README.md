@@ -140,7 +140,7 @@ This project utilizes a variety of tools and technologies to perform data analys
   - `numpy` for numerical operations
   - `matplotlib` and `seaborn` for data visualization
   - `scikit-learn` for machine learning models
-- **Jupyter Notebooks** for interactive analysis and visualization
+- **Google Colab Notebooks** for interactive analysis and visualization
 
 ## Modeling 🤖
 
@@ -157,33 +157,22 @@ The best-performing model can be deployed to predict future employee retention a
 
 ## How to Run the Project 🏃‍♀️
 
-To run this project on your local machine:
+To run this project on **Google Colab Notebooks** :
 
-1. Clone this repository:
+1. Install git : If you haven't already, install git in your Colab environment. You can do this by running the following command in a code cell:
     ```bash
-    git clone https://github.com/your-username/employee-retention-analysis.git
-    cd employee-retention-analysis
+    !apt-get install git -y
     ```
 
-2. Create and activate a virtual environment (recommended):
+2. Clone the repository: Clone the GitHub repository to your Colab environment using the git clone command:
     ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    !git clone https://github.com/krizz-byte/Optimizing-Employee-Benefits-A-Data-Driven-Approach.git
     ```
 
-3. Install the required dependencies:
+3. Access the data: The repository you linked contains an "Employee.csv" file within a subdirectory called "data." You can access this file by setting your working directory:
     ```bash
-    pip install -r requirements.txt
-    ```
-
-4. Run the Jupyter notebook for analysis:
-    ```bash
-    jupyter notebook analysis.ipynb
-    ```
-
-5. For machine learning modeling, run the following script:
-    ```bash
-    python model_training.py
+    import os os.chdir('Optimizing-Employee-Benefits-A-Data-Driven-Approach')
+    import pandas as pd employee_df = pd.read_excel('CLAIMRAW.xlsx')
     ```
 
 ## Contributing 🤝
