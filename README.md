@@ -77,7 +77,7 @@ Patient Information:
 | :------------ |:---------------|
 | Member ID    | Unique identifier for each patient. |
 | Location     | Geographic location associated with the patient. |
-
+| Birthdate     | Information about their birtday |
 
 Key Variables
 
