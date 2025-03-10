@@ -23,7 +23,7 @@ To evaluate claim trends, we focused on the following key metrics:
 
 
 
-- Total Billed Amount: The total dollar amount billed for medical services.
+- Total Billed Amount: The total IDR amount billed for medical services.
 - Outpatient vs. Hospitalization Claims: The proportion of total billed amount attributed to outpatient services versus inpatient (hospitalization) services.
 - Percentage Change: The month-over-month percentage change in the total billed amount.
 
